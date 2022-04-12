@@ -93,3 +93,9 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go mod vendor`, requires golang"
+-   id: go-protobuf
+    name: 'go-protobuf'
+    entry: run-protobuf.sh
+    files: '\.proto$'
+    language: 'script'
+    description: "Runs `protoc`, requires golang"
