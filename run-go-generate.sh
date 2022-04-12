@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-exec go generate "$@"
+for file in "$@"; do
+    go generate "$file"
+done
